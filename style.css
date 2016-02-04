@@ -176,22 +176,25 @@ article{
 article h1{
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 0px;
 }
 
 article h2{
     display: inline;
     margin: 0;
-    margin-top: 6px;
-    margin-bottom: 12px;
     font-size: 10px;
     color: #999999;
 }
 
-
+article hr{
+    margin: 0;
+    margin-bottom: 10px;
+    background: #cccccc;
+}
 
 article p{
     margin-top: 6px;
+    font-size: 12px;
 }
 
 article figure{
@@ -216,10 +219,9 @@ main#home article figure img{
     width: auto;
     border:none;
     margin: 0px;
+
 }
-main#home article figure img:nth-child(even){
-    margin-right: 10px;
-}
+
 
 main#home article h2{
     display: inline-block;
