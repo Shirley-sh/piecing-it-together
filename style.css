@@ -210,10 +210,10 @@ article figure img{
 
 /*styles for the home page*/
 main#home article figure{
-    text-align: center;
+    text-align: left;
 }
 main#home article figure img{
-    max-height:200px;
+    max-height:15vw;
     max-width: 100%;
     height: auto;
     width: auto;
@@ -283,5 +283,13 @@ main#home article h2:nth-child(3){
     main#home article h2 {
         display: inline;
         width: auto;
+    }
+    main#home article figure{
+        text-align: center;
+    }
+    main#home article figure img{
+        margin-bottom: 6px;
+        max-height:300px;
+
     }
 }
