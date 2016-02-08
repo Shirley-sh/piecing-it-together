@@ -150,9 +150,7 @@ nav{
 }
 
 #sidebar nav hr{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 20px;
+    margin: 0;
     border: 0;
     height: 1px;
     width: 60%;
