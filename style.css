@@ -184,6 +184,13 @@ article h2{
     color: #999999;
 }
 
+article h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 0;
+    margin-bottom: 6px;
+}
+
 article hr{
     margin: 0;
     margin-bottom: 10px;
