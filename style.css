@@ -36,7 +36,10 @@ body
     line-height: 1;
     z-index:-1;
 }
-
+img{
+    width: 100%;
+    height: auto;
+}
 
 
 ol, ul
@@ -169,6 +172,8 @@ article{
     padding: 10px;
     border-radius: 2px;
     box-shadow: 0px 2px 5px 0px rgba(51,51,51,0.5);
+    transition-property: transform;
+    transition-duration: 0.3s;
 }
 
 article h1{
